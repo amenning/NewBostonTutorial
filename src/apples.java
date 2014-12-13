@@ -1,12 +1,24 @@
 
 public class apples {
 	public static void main(String args[]){
-		int test = 6;
+		int age;
+		age = 8;
 		
-		if(test == 9){
-			System.out.println("Yes");
-		}else{
-			System.out.println("This is else");
+		switch (age){
+		case 1:
+			System.out.println("You can crawl");
+			break;
+		case 2:
+			System.out.println("You can talk");
+			break;
+		case 3:
+			System.out.println("You can get in trouble");
+			break;
+		default:
+			System.out.println("I don't know how old you are");	
+			break;
+			
 		}
+		
 	}
 }
